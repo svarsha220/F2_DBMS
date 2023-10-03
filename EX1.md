@@ -23,8 +23,10 @@ RENAME: This is used to rename an object existing in the database.
 ### 1) Create a table student with the following fieds rollno,name,age,address,phoneno.
 
 ### SQL QUERY: 
-```create table Studentsdetails(rollno numeric(12),name varchar(20),age numeric(2),address varchar(100),phoneno numeri
+```
+create table Studentsdetails(rollno numeric(12),name varchar(20),age numeric(2),address varchar(100),phoneno numeri
 c(10));
+
 ```
 
 
@@ -37,7 +39,9 @@ c(10));
 ### 2) Change the above student table by adding another attribute department
 
 ### SQL QUERY: 
-```alter table Studentsdetails add dept char(20);
+```
+alter table Studentsdetails add dept char(20);
+
 ```
 ### OUTPUT:
 ![image](https://github.com/svarsha220/F2_DBMS/assets/127709117/8d0cc7e6-d98d-4ab3-84a3-55d6c6b9e371)
@@ -47,7 +51,9 @@ c(10));
 
 
 ### SQL QUERY: 
- ``` drop table Studentsdetails;
+ ```
+ drop table Studentsdetails;
+
 ```
 
 
@@ -60,7 +66,9 @@ c(10));
 ### SQL QUERY: 
 
 ```
+
 truncate table Studentsdetails;
+
 ```
 ### OUTPUT:
 ![image](https://github.com/svarsha220/F2_DBMS/assets/127709117/edc738b5-fd90-49e8-a4a3-f3d5ea0b59e1)
@@ -72,7 +80,9 @@ truncate table Studentsdetails;
 
 ### SQL QUERY: 
 ```
+
 alter table Studentsdetails rename to my_student;
+
 ```
 
 ### OUTPUT:
