@@ -1,3 +1,4 @@
+
 # EXP NO 1: DATA DEFINITION LANGUGE COMMANDS IN RDBMS
 
 ## AIM:
@@ -21,50 +22,58 @@ RENAME: This is used to rename an object existing in the database.
 ## Query:
 ### 1) Create a table student with the following fieds rollno,name,age,address,phoneno.
 
-### SQL QUERY:
-``create table student(rollno int,name varchar(10),age int,address varchar(16),phoneno int);``
+### SQL QUERY: 
+```create table Studentsdetails(rollno numeric(12),name varchar(20),age numeric(2),address varchar(100),phoneno numeri
+c(10));
+```
+
 
 
 ### OUTPUT:
-![image](https://github.com/Vijisdurai/G2_DBMS/assets/118343184/ea814585-0563-4de9-b673-eb042e6626d8)
+![image](https://github.com/svarsha220/F2_DBMS/assets/127709117/d50fbdc6-f2c3-4f72-b8a4-04a8a034db24)
 
-![image](https://github.com/Vijisdurai/G2_DBMS/assets/118343184/b8c005b7-3c04-4a5e-9b34-af8dfd72279c)
+
 
 ### 2) Change the above student table by adding another attribute department
 
 ### SQL QUERY: 
-``alter table student add department varchar(10);``
-
+```alter table Studentsdetails add dept char(20);
+```
 ### OUTPUT:
-![image](https://github.com/Vijisdurai/G2_DBMS/assets/118343184/c4d910c5-19f3-4108-9f06-23accd1dc006)
-
-## PREVIOUS TABLE:
-![image](https://github.com/Vijisdurai/G2_DBMS/assets/118343184/b8c005b7-3c04-4a5e-9b34-af8dfd72279c)
-
-## ALTERED TABLE:
-![image](https://github.com/Vijisdurai/G2_DBMS/assets/118343184/366de4e4-119e-4f5f-a0ad-28ca3c7ccbd7)
+![image](https://github.com/svarsha220/F2_DBMS/assets/127709117/8d0cc7e6-d98d-4ab3-84a3-55d6c6b9e371)
 
 
 ### 3) Drop the student table
- 
+
+
 ### SQL QUERY: 
-`` drop table student;``
+ ``` drop table Studentsdetails;
+```
+
 
 ### OUTPUT:
-![image](https://github.com/Vijisdurai/G2_DBMS/assets/118343184/78efa1b2-e539-4fb7-bd7f-ee14f54f7808)
+
+![image](https://github.com/svarsha220/F2_DBMS/assets/127709117/f5d91048-4196-4624-b28a-c74d318d191d)
 
 ### 4) Delete the student table using truncate keyword
 
 ### SQL QUERY: 
-``TRUNCATE TABLE student;``
 
+```
+truncate table Studentsdetails;
+```
 ### OUTPUT:
-![image](https://github.com/Vijisdurai/G2_DBMS/assets/118343184/5d44392b-8e64-4110-89e8-deef85651523)
+![image](https://github.com/svarsha220/F2_DBMS/assets/127709117/edc738b5-fd90-49e8-a4a3-f3d5ea0b59e1)
+
+
+
 
 ### 5) Rename the student table to mystudent
 
 ### SQL QUERY: 
-``alter table student_details rename to mystudent;``
+```
+alter table Studentsdetails rename to my_student;
+```
 
 ### OUTPUT:
-![image](https://github.com/Vijisdurai/G2_DBMS/assets/118343184/13071f0e-7a0a-4bc4-b2f1-72764f221184)
+![image](https://github.com/svarsha220/F2_DBMS/assets/127709117/dec072ab-a106-41db-b627-568d013cf71b)
