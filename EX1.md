@@ -32,7 +32,8 @@ c(10));
 
 
 ### OUTPUT:
-![image](https://github.com/svarsha220/F2_DBMS/assets/127709117/d50fbdc6-f2c3-4f72-b8a4-04a8a034db24)
+![Screenshot 2023-10-05 092952](https://github.com/svarsha220/F2_DBMS/assets/127709117/14a75313-294a-412c-b3ad-b110011f4b31)
+
 
 
 
@@ -44,8 +45,7 @@ alter table Studentsdetails add dept char(20);
 
 ```
 ### OUTPUT:
-![image](https://github.com/svarsha220/F2_DBMS/assets/127709117/8d0cc7e6-d98d-4ab3-84a3-55d6c6b9e371)
-
+![image](https://github.com/svarsha220/F2_DBMS/assets/127709117/1f3b72df-689b-4d78-bca3-282249b7a6e7)
 
 ### 3) Drop the student table
 
@@ -59,7 +59,8 @@ alter table Studentsdetails add dept char(20);
 
 ### OUTPUT:
 
-![image](https://github.com/svarsha220/F2_DBMS/assets/127709117/f5d91048-4196-4624-b28a-c74d318d191d)
+![image](https://github.com/svarsha220/F2_DBMS/assets/127709117/e9564909-6a5b-44c2-a962-ba56c8543a06)
+
 
 ### 4) Delete the student table using truncate keyword
 
@@ -71,7 +72,8 @@ truncate table Studentsdetails;
 
 ```
 ### OUTPUT:
-![image](https://github.com/svarsha220/F2_DBMS/assets/127709117/edc738b5-fd90-49e8-a4a3-f3d5ea0b59e1)
+![image](https://github.com/svarsha220/F2_DBMS/assets/127709117/ba542667-115c-4bac-bbd7-df8d67a105a1)
+
 
 
 
@@ -86,4 +88,5 @@ alter table Studentsdetails rename to my_student;
 ```
 
 ### OUTPUT:
-![image](https://github.com/svarsha220/F2_DBMS/assets/127709117/dec072ab-a106-41db-b627-568d013cf71b)
+![image](https://github.com/svarsha220/F2_DBMS/assets/127709117/e1601106-6f71-42e3-abff-5865050abb55)
+
