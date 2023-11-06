@@ -91,3 +91,5 @@ alter table Studentsdetails rename to my_student;
 ### OUTPUT:
 ![image](https://github.com/svarsha220/F2_DBMS/assets/127709117/e1601106-6f71-42e3-abff-5865050abb55)
 
+### RESULT:
+Thus the student database was created successfully.
